@@ -1,0 +1,118 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+
+ 
+
+\center
+
+
+\textsc{\Large SOEN6011(Deliverable 2)}\\[0.5cm] 
+\url{https://github.com/vik-sandhu/soen$\_$6011  }\\[0.5cm] 
+
+
+\HRule \\[0.4cm]
+{ \huge \bfseries F2: tan(x)}\\[0.4cm] 
+\HRule \\[1.5cm]
+ 
+
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+VIKRAMJIT \textsc{SINGH} 
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Student ID:} \\
+40075774 \textsc{ } 
+\end{flushright}
+\end{minipage}\\[2cm]
+
+
+
+{\large \today}\\[2cm] 
+
+\includegraphics[width=8cm,height=4cm,keepaspectratio]{logo.jpg}\\[1cm] 
+
+\vfill 
+
+\end{titlepage}
+
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\begin{document}
+
+\section{Source Code}
+\subsection{Correctness}
+As mentioned in the algorithm, I reduced the angle provided by user so that it's in the range \(-90^{\circ}<x\leq90^{\circ}\).But using this algorithm, as we move closer to $90^{\circ}$, answer deviates from the correctness to a large extent.
+\begin{flushleft}
+ So, i  order to achieve more correctness, I reduced to larger extent. So now I reduced the angle provided by user so that it's in the range   \(-22.5^{\circ}<x\leq22.5^{\circ}\). After testing this , i concluded that the polynomial approximation used in algorithm is accurate to within \(\pm0.000006\).
+\end{flushleft}
+\begin{flushleft}
+ The solution provided by my source code is accurate to within \(\pm0.000006\).
+\end{flushleft}
+\subsection{Efficiency}
+The complexity of program is very less because I used optimized data structures and didn't over used variables. Moreover, the result calculated is very accurate.It takes just 15 milliseconds to compute the result. 
+
+\subsection{Maintainable}
+In this program, proper commenting is provided for each function used, making it easier to understand. Furthermore, it's very easy to understand the code flow. Moreover, changes can be made easily to this program without introducing new bugs, if ever needed so.  
+\subsection{Usable}
+Persistent effort was made towards polishing the functionality of algorithmic java code to make it usable.
+\subsection{Robust}
+Instead of writing one big black chunk of code upfront and executing, I'm rather breaking down the code into functional steps and then creating the steps one by one.I focus purely on how I will be breaking down the problem into the overall context of the requirement.Every class, function, and subroutine does only one function making the code robust, clean and modular.
+\pagebreak
+\section{Debugger}
+Debugging gives us a one of a kind knowledge into how a program runs and enables us to pick up an a lot further comprehension of the bit of code we troubleshoot. For this project I used the IntelliJ IDEA debugger. The IntelliJ IDEA debugger offers a rich encounter that encourages us to effortlessly investigate anything from the least complex code to complex multithreaded applications.
+\subsection{Advantages}
+\begin{itemize}
+   \item The IntelliJ IDEA debugger is very convenient, much easier, intelligent and faster.
+   \item It also provides features likes autofilling, syntax highlighting.
+\end{itemize}
+\subsection{Disadvantages}
+\begin{itemize}
+   \item The Utlimate Edition is very expensive.
+   \item It's not completely open source, due to which community support is less.
+\end{itemize}
+\pagebreak
+
+\section{CheckStyle}
+To check the source code's adherence to the coding standards and make sure that the quality of source code is maintained, I used CheckStyle's plugin for IntelliJ IDEA.This plugin provides both real-time and on-demand scanning of Java files with CheckStyle from within IDEA. CheckStyle characterizes a lot of accessible modules, every one of which furnishes principles checking with a configurable degree of severity (obligatory, optional...). Each standard can raise notices, admonitions, and mistakes.CheckStyle uses ANTLR (ANother Tool for Language Recognition) parser generator.
+\subsection{Advantages}
+\begin{itemize}
+   \item Checkstyle is portable between IDE's.
+   \item Functionality of CheckStyle is mainly implemented as checks, which we can also write according to our need. In other words, we can extent the functionality of CheckStyle.
+\end{itemize}
+\subsection{Disadvantages}
+\begin{itemize}
+   \item Checkstyle is limited to the presentation of the code. These checks don't affirm the accuracy of the code.
+   \item Checkstyle is a single file static analysis tool.
+   \item CheckStyle do not support UTF-8.
+   \item Code should be compilable, in order to get violations from CheckStyle. 
+\end{itemize}
+\pagebreak
+
+
+\begin{thebibliography}{}
+
+\bibitem{link}
+{https://en.wikipedia.org/wiki/Checkstyle}
+\bibitem{link}
+{https://en.wikipedia.org/wiki/IntelliJ_IDEA}
+
+\end{thebibliography}
+\end{document}
