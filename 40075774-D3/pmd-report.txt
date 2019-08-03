@@ -1,0 +1,466 @@
+src/main/java/Comparison.java:7:	ClassNamingConventions: The utility class name 'Comparison' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+src/main/java/Comparison.java:7:	ClassNamingConventions: The utility class name 'Comparison' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+src/main/java/Comparison.java:7:	ModifiedCyclomaticComplexity: The class 'Comparison' has a Modified Cyclomatic Complexity of 10 (Highest = 9).
+src/main/java/Comparison.java:7:	ModifiedCyclomaticComplexity: The class 'Comparison' has a Modified Cyclomatic Complexity of 10 (Highest = 9).
+src/main/java/Comparison.java:7:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/Comparison.java:7:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/Comparison.java:7:	StdCyclomaticComplexity: The class 'Comparison' has a Standard Cyclomatic Complexity of 10 (Highest = 9).
+src/main/java/Comparison.java:7:	StdCyclomaticComplexity: The class 'Comparison' has a Standard Cyclomatic Complexity of 10 (Highest = 9).
+src/main/java/Comparison.java:8:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/Comparison.java:8:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/Comparison.java:16:	CyclomaticComplexity: The method 'my_comparison(double)' has a cyclomatic complexity of 12.
+src/main/java/Comparison.java:16:	CyclomaticComplexity: The method 'my_comparison(double)' has a cyclomatic complexity of 12.
+src/main/java/Comparison.java:16:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/main/java/Comparison.java:16:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/main/java/Comparison.java:16:	MethodNamingConventions: The static method name 'my_comparison' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/Comparison.java:16:	MethodNamingConventions: The static method name 'my_comparison' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/Comparison.java:16:	ShortVariable: Avoid variables with short names like x
+src/main/java/Comparison.java:16:	ShortVariable: Avoid variables with short names like x
+src/main/java/Comparison.java:18:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_positive_ex' (lines '18'-'39').
+src/main/java/Comparison.java:18:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_positive_ex' (lines '18'-'39').
+src/main/java/Comparison.java:18:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_positive_ex' (lines '18'-'49').
+src/main/java/Comparison.java:18:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_positive_ex' (lines '18'-'49').
+src/main/java/Comparison.java:18:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'value_positive_ex' (lines '18'-'58').
+src/main/java/Comparison.java:18:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'value_positive_ex' (lines '18'-'58').
+src/main/java/Comparison.java:18:	LocalVariableNamingConventions: The local variable name 'value_positive_ex' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/Comparison.java:18:	LocalVariableNamingConventions: The local variable name 'value_positive_ex' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/Comparison.java:18:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/Comparison.java:18:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/Comparison.java:18:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'value_positive_ex' is not final.
+src/main/java/Comparison.java:18:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'value_positive_ex' is not final.
+src/main/java/Comparison.java:19:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_negative_ex' (lines '19'-'40').
+src/main/java/Comparison.java:19:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_negative_ex' (lines '19'-'40').
+src/main/java/Comparison.java:19:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'value_negative_ex' (lines '19'-'58').
+src/main/java/Comparison.java:19:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'value_negative_ex' (lines '19'-'58').
+src/main/java/Comparison.java:19:	LocalVariableNamingConventions: The local variable name 'value_negative_ex' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/Comparison.java:19:	LocalVariableNamingConventions: The local variable name 'value_negative_ex' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/Comparison.java:19:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/Comparison.java:19:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/Comparison.java:19:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'value_negative_ex' is not final.
+src/main/java/Comparison.java:19:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'value_negative_ex' is not final.
+src/main/java/Comparison.java:20:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'output' (lines '20'-'42').
+src/main/java/Comparison.java:20:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'output' (lines '20'-'42').
+src/main/java/Comparison.java:20:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'output' (lines '20'-'51').
+src/main/java/Comparison.java:20:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'output' (lines '20'-'51').
+src/main/java/Comparison.java:20:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'output' (lines '20'-'58').
+src/main/java/Comparison.java:20:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'output' (lines '20'-'58').
+src/main/java/Comparison.java:20:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/Comparison.java:20:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/Comparison.java:21:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'abs_x' (lines '21'-'33').
+src/main/java/Comparison.java:21:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'abs_x' (lines '21'-'33').
+src/main/java/Comparison.java:21:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'abs_x' (lines '21'-'58').
+src/main/java/Comparison.java:21:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'abs_x' (lines '21'-'58').
+src/main/java/Comparison.java:21:	LocalVariableNamingConventions: The local variable name 'abs_x' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/Comparison.java:21:	LocalVariableNamingConventions: The local variable name 'abs_x' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/Comparison.java:21:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'abs_x' is not final.
+src/main/java/Comparison.java:21:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'abs_x' is not final.
+src/main/java/Comparison.java:24:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Comparison.java:24:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Comparison.java:28:	SystemPrintln: System.out.print is used
+src/main/java/Comparison.java:28:	SystemPrintln: System.out.print is used
+src/main/java/Comparison.java:29:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Comparison.java:29:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Comparison.java:35:	UselessParentheses: Useless parentheses.
+src/main/java/Comparison.java:35:	UselessParentheses: Useless parentheses.
+src/main/java/Comparison.java:39:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_positive_ex' (lines '39'-'39').
+src/main/java/Comparison.java:39:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_positive_ex' (lines '39'-'39').
+src/main/java/Comparison.java:40:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_negative_ex' (lines '40'-'40').
+src/main/java/Comparison.java:40:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_negative_ex' (lines '40'-'40').
+src/main/java/Comparison.java:49:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_positive_ex' (lines '49'-'49').
+src/main/java/Comparison.java:49:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'value_positive_ex' (lines '49'-'49').
+src/main/java/Comparison.java:55:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Comparison.java:55:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/MyFuncs.java:4:	ClassNamingConventions: The utility class name 'MyFuncs' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+src/main/java/MyFuncs.java:4:	ClassNamingConventions: The utility class name 'MyFuncs' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+src/main/java/MyFuncs.java:4:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/MyFuncs.java:4:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/MyFuncs.java:5:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/MyFuncs.java:5:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/MyFuncs.java:11:	AvoidReassigningParameters: Avoid reassigning parameters such as 's'
+src/main/java/MyFuncs.java:11:	AvoidReassigningParameters: Avoid reassigning parameters such as 's'
+src/main/java/MyFuncs.java:11:	ShortVariable: Avoid variables with short names like s
+src/main/java/MyFuncs.java:11:	ShortVariable: Avoid variables with short names like s
+src/main/java/MyFuncs.java:13:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'len' (lines '13'-'18').
+src/main/java/MyFuncs.java:13:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'len' (lines '13'-'18').
+src/main/java/MyFuncs.java:14:	ShortVariable: Avoid variables with short names like i
+src/main/java/MyFuncs.java:14:	ShortVariable: Avoid variables with short names like i
+src/main/java/MyFuncs.java:16:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/MyFuncs.java:16:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/MyFuncs.java:18:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'len' (lines '18'-'18').
+src/main/java/MyFuncs.java:18:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'len' (lines '18'-'18').
+src/main/java/MyFuncs.java:30:	MethodArgumentCouldBeFinal: Parameter 'n' is not assigned and could be declared final
+src/main/java/MyFuncs.java:30:	MethodArgumentCouldBeFinal: Parameter 'n' is not assigned and could be declared final
+src/main/java/MyFuncs.java:30:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/main/java/MyFuncs.java:30:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/main/java/MyFuncs.java:30:	ShortVariable: Avoid variables with short names like n
+src/main/java/MyFuncs.java:30:	ShortVariable: Avoid variables with short names like n
+src/main/java/MyFuncs.java:30:	ShortVariable: Avoid variables with short names like x
+src/main/java/MyFuncs.java:30:	ShortVariable: Avoid variables with short names like x
+src/main/java/SinhCalculator.java:7:	CommentSize: Comment is too large: Line too long
+src/main/java/SinhCalculator.java:7:	CommentSize: Comment is too large: Line too long
+src/main/java/SinhCalculator.java:9:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/SinhCalculator.java:9:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/SinhCalculator.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/SinhCalculator.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/SinhCalculator.java:11:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/SinhCalculator.java:11:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/SinhCalculator.java:13:	SystemPrintln: System.out.println is used
+src/main/java/SinhCalculator.java:13:	SystemPrintln: System.out.println is used
+src/main/java/SinhCalculator.java:14:	SystemPrintln: System.out.println is used
+src/main/java/SinhCalculator.java:14:	SystemPrintln: System.out.println is used
+src/main/java/SinhCalculator.java:15:	SystemPrintln: System.out.println is used
+src/main/java/SinhCalculator.java:15:	SystemPrintln: System.out.println is used
+src/main/java/SinhCalculator.java:16:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/main/java/SinhCalculator.java:16:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/main/java/SinhCalculator.java:16:	LocalVariableCouldBeFinal: Local variable 'sc' could be declared final
+src/main/java/SinhCalculator.java:16:	LocalVariableCouldBeFinal: Local variable 'sc' could be declared final
+src/main/java/SinhCalculator.java:16:	ShortVariable: Avoid variables with short names like sc
+src/main/java/SinhCalculator.java:16:	ShortVariable: Avoid variables with short names like sc
+src/main/java/SinhCalculator.java:17:	ShortVariable: Avoid variables with short names like x
+src/main/java/SinhCalculator.java:17:	ShortVariable: Avoid variables with short names like x
+src/main/java/SinhCalculator.java:18:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/main/java/SinhCalculator.java:18:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/main/java/SinhCalculator.java:18:	ShortVariable: Avoid variables with short names like s
+src/main/java/SinhCalculator.java:18:	ShortVariable: Avoid variables with short names like s
+src/main/java/SinhCalculator.java:19:	LocalVariableCouldBeFinal: Local variable 'v' could be declared final
+src/main/java/SinhCalculator.java:19:	LocalVariableCouldBeFinal: Local variable 'v' could be declared final
+src/main/java/SinhCalculator.java:19:	ShortVariable: Avoid variables with short names like v
+src/main/java/SinhCalculator.java:19:	ShortVariable: Avoid variables with short names like v
+src/main/java/SinhCalculator.java:20:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/main/java/SinhCalculator.java:20:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/main/java/SinhCalculator.java:20:	ShortVariable: Avoid variables with short names like b
+src/main/java/SinhCalculator.java:20:	ShortVariable: Avoid variables with short names like b
+src/main/java/SinhCalculator.java:26:	SystemPrintln: System.out.print is used
+src/main/java/SinhCalculator.java:26:	SystemPrintln: System.out.print is used
+src/main/java/SinhCalculator.java:30:	SystemPrintln: System.out.print is used
+src/main/java/SinhCalculator.java:30:	SystemPrintln: System.out.print is used
+src/main/java/SinhCalculator.java:35:	SystemPrintln: System.out.print is used
+src/main/java/SinhCalculator.java:35:	SystemPrintln: System.out.print is used
+src/main/java/Validator.java:2:	CommentSize: Comment is too large: Line too long
+src/main/java/Validator.java:2:	CommentSize: Comment is too large: Line too long
+src/main/java/Validator.java:4:	CommentSize: Comment is too large: Line too long
+src/main/java/Validator.java:4:	CommentSize: Comment is too large: Line too long
+src/main/java/Validator.java:6:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/Validator.java:6:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/Validator.java:13:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/main/java/Validator.java:13:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/main/java/Validator.java:13:	ShortVariable: Avoid variables with short names like s
+src/main/java/Validator.java:13:	ShortVariable: Avoid variables with short names like s
+src/main/java/Validator.java:15:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'len' (lines '15'-'25').
+src/main/java/Validator.java:15:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'len' (lines '15'-'25').
+src/main/java/Validator.java:15:	LocalVariableCouldBeFinal: Local variable 'len' could be declared final
+src/main/java/Validator.java:15:	LocalVariableCouldBeFinal: Local variable 'len' could be declared final
+src/main/java/Validator.java:15:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/Validator.java:15:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/Validator.java:15:	UnusedLocalVariable: Avoid unused local variables such as 'len'.
+src/main/java/Validator.java:15:	UnusedLocalVariable: Avoid unused local variables such as 'len'.
+src/main/java/Validator.java:18:	SystemPrintln: System.out.println is used
+src/main/java/Validator.java:18:	SystemPrintln: System.out.println is used
+src/main/java/Validator.java:19:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:19:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:32:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/main/java/Validator.java:32:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/main/java/Validator.java:32:	ShortVariable: Avoid variables with short names like s
+src/main/java/Validator.java:32:	ShortVariable: Avoid variables with short names like s
+src/main/java/Validator.java:34:	LocalVariableCouldBeFinal: Local variable 'len' could be declared final
+src/main/java/Validator.java:34:	LocalVariableCouldBeFinal: Local variable 'len' could be declared final
+src/main/java/Validator.java:37:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/Validator.java:37:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/Validator.java:37:	ShortVariable: Avoid variables with short names like c
+src/main/java/Validator.java:37:	ShortVariable: Avoid variables with short names like c
+src/main/java/Validator.java:38:	UselessParentheses: Useless parentheses.
+src/main/java/Validator.java:38:	UselessParentheses: Useless parentheses.
+src/main/java/Validator.java:38:	UselessParentheses: Useless parentheses.
+src/main/java/Validator.java:38:	UselessParentheses: Useless parentheses.
+src/main/java/Validator.java:40:	SystemPrintln: System.out.println is used
+src/main/java/Validator.java:40:	SystemPrintln: System.out.println is used
+src/main/java/Validator.java:41:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:41:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:52:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/main/java/Validator.java:52:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/main/java/Validator.java:52:	ShortVariable: Avoid variables with short names like s
+src/main/java/Validator.java:52:	ShortVariable: Avoid variables with short names like s
+src/main/java/Validator.java:54:	LocalVariableCouldBeFinal: Local variable 'len' could be declared final
+src/main/java/Validator.java:54:	LocalVariableCouldBeFinal: Local variable 'len' could be declared final
+src/main/java/Validator.java:55:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'count' (lines '55'-'66').
+src/main/java/Validator.java:55:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'count' (lines '55'-'66').
+src/main/java/Validator.java:55:	LocalVariableCouldBeFinal: Local variable 'count' could be declared final
+src/main/java/Validator.java:55:	LocalVariableCouldBeFinal: Local variable 'count' could be declared final
+src/main/java/Validator.java:55:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/Validator.java:55:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/Validator.java:55:	UnusedLocalVariable: Avoid unused local variables such as 'count'.
+src/main/java/Validator.java:55:	UnusedLocalVariable: Avoid unused local variables such as 'count'.
+src/main/java/Validator.java:58:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/Validator.java:58:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/Validator.java:58:	ShortVariable: Avoid variables with short names like c
+src/main/java/Validator.java:58:	ShortVariable: Avoid variables with short names like c
+src/main/java/Validator.java:59:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/Validator.java:59:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/Validator.java:61:	SystemPrintln: System.out.println is used
+src/main/java/Validator.java:61:	SystemPrintln: System.out.println is used
+src/main/java/Validator.java:62:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:62:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:73:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/main/java/Validator.java:73:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/main/java/Validator.java:73:	ShortVariable: Avoid variables with short names like s
+src/main/java/Validator.java:73:	ShortVariable: Avoid variables with short names like s
+src/main/java/Validator.java:75:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'len' (lines '75'-'89').
+src/main/java/Validator.java:75:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'len' (lines '75'-'89').
+src/main/java/Validator.java:75:	LocalVariableCouldBeFinal: Local variable 'len' could be declared final
+src/main/java/Validator.java:75:	LocalVariableCouldBeFinal: Local variable 'len' could be declared final
+src/main/java/Validator.java:76:	LocalVariableCouldBeFinal: Local variable 'specialCharacters' could be declared final
+src/main/java/Validator.java:76:	LocalVariableCouldBeFinal: Local variable 'specialCharacters' could be declared final
+src/main/java/Validator.java:83:	SystemPrintln: System.out.println is used
+src/main/java/Validator.java:83:	SystemPrintln: System.out.println is used
+src/main/java/Validator.java:84:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:84:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:93:	CommentSize: Comment is too large: Line too long
+src/main/java/Validator.java:93:	CommentSize: Comment is too large: Line too long
+src/main/java/Validator.java:96:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/main/java/Validator.java:96:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/main/java/Validator.java:96:	ShortVariable: Avoid variables with short names like s
+src/main/java/Validator.java:96:	ShortVariable: Avoid variables with short names like s
+src/main/java/Validator.java:98:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Validator.java:98:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Validator.java:100:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:100:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:102:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Validator.java:102:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Validator.java:104:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:104:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:106:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Validator.java:106:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Validator.java:108:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:108:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:110:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Validator.java:110:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Validator.java:112:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Validator.java:112:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/test/java/TestComparison.java:2:	UnusedImports: Avoid unused imports such as 'org.junit.Assert'
+src/test/java/TestComparison.java:2:	UnusedImports: Avoid unused imports such as 'org.junit.Assert'
+src/test/java/TestComparison.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/TestComparison.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/TestComparison.java:6:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/TestComparison.java:6:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/TestComparison.java:9:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:9:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:9:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_A' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:9:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_A' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:11:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:11:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:11:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:11:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:12:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:12:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:13:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestComparison.java:13:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestComparison.java:16:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:16:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:16:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_B' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:16:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_B' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:18:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:18:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:18:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:18:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:19:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:19:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:20:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestComparison.java:20:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestComparison.java:23:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:23:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:23:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_C' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:23:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_C' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:25:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:25:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:25:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:25:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:26:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:26:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:27:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestComparison.java:27:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestComparison.java:30:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:30:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:30:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_D' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:30:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_D' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:32:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:32:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:32:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:32:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:33:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:33:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:34:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestComparison.java:34:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestComparison.java:37:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:37:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:37:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_E' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:37:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_E' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:39:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:39:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:39:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:39:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:40:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:40:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:41:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestComparison.java:41:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestComparison.java:44:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:44:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestComparison.java:44:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_F' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:44:	MethodNamingConventions: The JUnit 4 test method name 'testComparisonCase_F' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestComparison.java:46:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:46:	LocalVariableCouldBeFinal: Local variable 'd' could be declared final
+src/test/java/TestComparison.java:46:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:46:	ShortVariable: Avoid variables with short names like d
+src/test/java/TestComparison.java:47:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:47:	LocalVariableCouldBeFinal: Local variable 'comp' could be declared final
+src/test/java/TestComparison.java:48:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestComparison.java:48:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestMyFuncs.java:2:	UnusedImports: Avoid unused imports such as 'org.junit.Assert'
+src/test/java/TestMyFuncs.java:2:	UnusedImports: Avoid unused imports such as 'org.junit.Assert'
+src/test/java/TestMyFuncs.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/TestMyFuncs.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/TestMyFuncs.java:6:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/TestMyFuncs.java:6:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/TestMyFuncs.java:9:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestMyFuncs.java:9:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestMyFuncs.java:11:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestMyFuncs.java:11:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestMyFuncs.java:12:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestMyFuncs.java:12:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestMyFuncs.java:16:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestMyFuncs.java:16:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestMyFuncs.java:18:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestMyFuncs.java:18:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestMyFuncs.java:19:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestMyFuncs.java:19:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:2:	UnusedImports: Avoid unused imports such as 'org.junit.Assert'
+src/test/java/TestValidator.java:2:	UnusedImports: Avoid unused imports such as 'org.junit.Assert'
+src/test/java/TestValidator.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/TestValidator.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/TestValidator.java:6:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/TestValidator.java:6:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/TestValidator.java:9:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:9:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:11:	AvoidDuplicateLiterals: The String literal "123" appears 5 times in this file; the first occurrence is on line 11
+src/test/java/TestValidator.java:11:	AvoidDuplicateLiterals: The String literal "123" appears 5 times in this file; the first occurrence is on line 11
+src/test/java/TestValidator.java:11:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:11:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:11:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:11:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:12:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:12:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:13:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:13:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:13:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:13:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:16:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:16:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:16:	MethodNamingConventions: The JUnit 4 test method name 'testAlphaFunCase_A' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:16:	MethodNamingConventions: The JUnit 4 test method name 'testAlphaFunCase_A' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:18:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:18:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:18:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:18:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:19:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:19:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:20:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:20:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:20:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:20:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:23:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:23:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:23:	MethodNamingConventions: The JUnit 4 test method name 'testAlphaFunCase_B' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:23:	MethodNamingConventions: The JUnit 4 test method name 'testAlphaFunCase_B' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:25:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:25:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:25:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:25:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:26:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:26:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:27:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:27:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:27:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:27:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:30:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:30:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:30:	MethodNamingConventions: The JUnit 4 test method name 'testSpaceFunCase_A' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:30:	MethodNamingConventions: The JUnit 4 test method name 'testSpaceFunCase_A' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:32:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:32:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:32:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:32:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:33:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:33:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:34:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:34:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:34:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:34:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:37:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:37:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:37:	MethodNamingConventions: The JUnit 4 test method name 'testSpaceFunCase_B' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:37:	MethodNamingConventions: The JUnit 4 test method name 'testSpaceFunCase_B' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:39:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:39:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:39:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:39:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:40:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:40:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:41:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:41:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:41:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:41:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:44:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:44:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:44:	MethodNamingConventions: The JUnit 4 test method name 'testSpecialCharFunCase_A' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:44:	MethodNamingConventions: The JUnit 4 test method name 'testSpecialCharFunCase_A' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:46:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:46:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:46:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:46:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:47:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:47:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:48:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:48:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:48:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:48:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:51:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:51:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:51:	MethodNamingConventions: The JUnit 4 test method name 'testSpecialCharFunCase_B' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:51:	MethodNamingConventions: The JUnit 4 test method name 'testSpecialCharFunCase_B' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:53:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:53:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:53:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:53:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:54:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:54:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:55:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:55:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:55:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:55:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:58:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:58:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:58:	MethodNamingConventions: The JUnit 4 test method name 'testMyValidatorFunCase_A' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:58:	MethodNamingConventions: The JUnit 4 test method name 'testMyValidatorFunCase_A' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:60:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:60:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:60:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:60:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:61:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:61:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:62:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:62:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:62:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:62:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:65:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:65:	CommentRequired: Public method and constructor comments are required
+src/test/java/TestValidator.java:65:	MethodNamingConventions: The JUnit 4 test method name 'testMyValidatorFunCase_B' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:65:	MethodNamingConventions: The JUnit 4 test method name 'testMyValidatorFunCase_B' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/TestValidator.java:67:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:67:	LocalVariableCouldBeFinal: Local variable 's' could be declared final
+src/test/java/TestValidator.java:67:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:67:	ShortVariable: Avoid variables with short names like s
+src/test/java/TestValidator.java:68:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:68:	LocalVariableCouldBeFinal: Local variable 'vad' could be declared final
+src/test/java/TestValidator.java:69:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:69:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/TestValidator.java:69:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/TestValidator.java:69:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
